@@ -39,14 +39,7 @@ void draw()
   redraw();
 }
 //source for image:https://www.alamy.com/clipping-path-hand-gestures-isolated-on-white-background-hand-mimicking-the-famous-japanese-animations-kamehameha-power-turtle-wave-image209528036.html
-void mousePressed()
-
-{
-  stroke((int)(Math.random()*100)+100,(int)(Math.random()*100)+100,256);
-  startX = 0;
-  startY = 250;
-  endX = 0;
-  endY=250;
-   
-  redraw();
-}
+//void mousePressed()
+//{
+  
+//}
