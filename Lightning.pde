@@ -42,5 +42,11 @@ void draw()
 void mousePressed()
 
 {
-  
+  stroke((int)(Math.random()*100)+100,(int)(Math.random()*100)+100,256);
+  startX = 0;
+  startY = 250;
+  endX = 0;
+  endY=250;
+   
+  redraw();
 }
